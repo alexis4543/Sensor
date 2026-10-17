@@ -6,21 +6,21 @@ Sensor spresion= new Sensor();
 Sensor shumedad= new Sensor();
 
 
-    stemperatura.nombre="Sensor 1";
-    stemperatura.tipo="Temperatura";
-    stemperatura.lectura=25.0;
-    stemperatura.unidad="ºC";
+    stemperatura.setNombre("Sensor 1");
+    stemperatura.setTipo("Temperatura");
+    stemperatura.setLectura(25.0);
+    stemperatura.setUnidad("ºC");
 
-    spresion.nombre="Sensor 2";
-    spresion.tipo="Presión";
-    spresion.lectura=2.5;
-    spresion.unidad="Bares";
+    spresion.setNombre("Sensor 2");
+    spresion.setTipo("Presión");
+    spresion.setLectura(2.5);
+    spresion.setUnidad("Bares");
 
 
-    shumedad.nombre="Sensor 3";
-    shumedad.tipo="Humedad";
-    shumedad.lectura=35.0;
-    shumedad.unidad="%";
+    shumedad.setNombre("Sensor 3");
+    shumedad.setTipo("Humedad");
+    shumedad.setLectura(35);
+    shumedad.setUnidad("%");
 
     System.out.println("----INFORMACIÓN SENSOR TEMPERATURA----");
     stemperatura.mostrarInformacion();
